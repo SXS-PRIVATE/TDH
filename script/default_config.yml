@@ -1,14 +1,14 @@
 training:
-  method: DCMH
+  method: TDH
   dataName: Mirflickr25K
-  batchSize: 128
+  batchSize: 2
   bit: 32
   cuda: True
   device: 0
 
 datasetPath:
   Mirflickr25k:
-    img_dir: E:\python_project\deep-cross-modal-hashing-master\torchcmh\dataset\data\mirflckr25k_1
+    img_dir: E:\python_project\TDH\torchcmh\dataset\data\mirflckr25k
   NUS WIDE:
     img_dir: I:\dataset\nuswide\
   COCO2014:

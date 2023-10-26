@@ -29,7 +29,7 @@ class CrossModalTrainBase(Dataset):
                  img_transform=None, txt_transform=None):
         super(CrossModalTrainBase, self).__init__()
         if not os.path.exists(img_dir):
-            raise FileExistsError(img_dir + " is not exist")
+           raise FileExistsError(img_dir + " is not exist")
         self.img_dir = img_dir
         if not os.path.isdir(img_dir):
             raise NotADirectoryError(img_dir + " is not a dir")

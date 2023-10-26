@@ -8,7 +8,7 @@ training:
 
 datasetPath:
   Mirflickr25k:
-    img_dir: E:\python_project\deep-cross-modal-hashing-master\torchcmh\dataset\data\mirflckr25k
+    img_dir: E:\python_project\TDH\torchcmh\dataset\data\mirflckr25k
   NUS WIDE:
     img_dir: I:\dataset\nuswide\
   COCO2014:
