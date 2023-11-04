@@ -83,6 +83,9 @@ class CrossModalTrainBase(Dataset):
         if self.txt_read is False:
             self.img_read = False
             self.txt_read = True
+    def img_txt_load(self):
+        self.img_read = True
+        self.txt_read = True
 
     def both_load(self):
         self.img_read = True
